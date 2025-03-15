@@ -15,7 +15,7 @@
 
 ## Comandos Iniciales
 
-## Crear un repositorio en GITHUB ()
+## Crear un repositorio en GITHUB
 
 ## Inicializar un repositorio Local
 
@@ -25,7 +25,20 @@ git int
 
 ### Referencia del repositorio (Local) al repositorio (remoto)
 
--   Codigo
+'''
+git remote add origin https://github.com/Rodrigoqs/backend_laravel_vue.git
+'''
 
-'''git remote add origin https://github.com/Rodrigoqs/backend_laravel_vue.git
+## Actualizar el repositorio
+
+'''
+git add . (en esta ocacion se sube todo los archivos)
+git commit -m "Proyecto Base (CRUD Usuarios)"
+git push origin master
+'''
+
+## obtener los nuevos cambios
+
+'''
+git pull origin master
 '''

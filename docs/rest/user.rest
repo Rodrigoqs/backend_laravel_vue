@@ -1,5 +1,6 @@
 GET http://127.0.0.1:8000/api/user
-
+Accept: application/json
+Authorization: Bearer 4|IWUGrdGnSS7eCsvno5iTiug09xXubGnFk17O54407d5c9494
 ### Guardar
 
 POST http://127.0.0.1:8000/api/user
@@ -7,9 +8,9 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "name":"maria",
-    "email": "maria@gmail.com",
-    "password": "maria4321"
+    "name":"rodrigo",
+    "email": "rodri@gmail.com",
+    "password": "rodrigo123"
 }
 
 ### Mostrar
@@ -32,4 +33,4 @@ Content-Type: application/json
 
 ### eliminar usuario
 
-DELETE http://127.0.0.1:8000/api/user/2
+DELETE http://127.0.0.1:8000/api/user/5
