@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ### Mostrar
 
-GET http://127.0.0.1:8000/api/user/2
+GET http://127.0.0.1:8000/api/user/1
 Accept: application/json
 
 ### Modificar
